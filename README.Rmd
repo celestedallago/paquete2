@@ -40,4 +40,9 @@ library(paquete2)
 fahrenheit_a_centigrados(50)
 #Esta funcion devuele la convercion de los grados fahrenheit a centigrados
 ```
+##Ejemplo de funcion
+```{r}
+```
+
+
 
