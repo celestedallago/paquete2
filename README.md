@@ -1,12 +1,11 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# paquete2
+# paquete2 <img src="inst/figures/logo.jpg" align="right" width="130"/>
 
 <!-- badges: start -->
 <!-- badges: end -->
-![logo para readme](inst/figures/Gemini_Generated_Image_gebsrxgebsrxgebs.jpg)
-Gemini_Generated_Image_gebsrxgebsrxgebs
+
 El objetivo de paquete2 es facilitar el análisis y la transformación de datos meteorológicos en bruto para investigaciones y proyectos de modelado climático. Este paquete incluye funciones para convertir temperaturas entre diferentes unidades, procesar y limpiar datos meteorológicos, y generar estadísticas descriptivas clave. Además, paquete2 ofrece conjuntos de datos preprocesados que sirven como base para realizar análisis exploratorios y validar modelos climáticos.
 
 Entre las principales características de paquete2 se encuentran:
