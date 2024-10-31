@@ -3,7 +3,7 @@
 #'
 #' #Esta funcion te pide grados en fehrenheit para posteriormente devolvertelos en grados centigrados
 #'
-#' @param temperatura_f
+#' @param temperatura_f {temperatura en grados fahrenheit}
 #'
 #' @return retorna el grado fahrenheit en centigrados
 #'
