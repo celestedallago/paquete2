@@ -16,7 +16,7 @@ retorna el grado fahrenheit en centigrados
 #Esta funcion te pide grados en fehrenheit para posteriormente devolvertelos en grados centigrados
 }
 \examples{
-fahrenheit_a_celsius(98.6)
+fahrenheit_a_centigrados(98.6)
 #Esta funcion deberia devolver 37
 
 }
