@@ -8,8 +8,6 @@
 [![Lifecycle:
 experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
 
-# paquete2 <img src="man/figures/logo.jpg" align="right" width="130"/>
-
 <!-- badges: end -->
 
 ## Instacion
