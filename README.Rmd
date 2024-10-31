@@ -1,0 +1,41 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# paquete2
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+The goal of paquete2 is to ...
+
+## Instacion
+
+Puede instalar la versión de desarrollo de paquete2 desde [GitHub](https://github.com/) con:
+
+``` r
+# install.packages("pak")
+pak::pak("celestedallago/paquete2")
+```
+
+## Ejemplo
+
+Este es un ejemplo básico que muestra cómo resolver un problema común:
+
+```{r example}
+library(paquete2)
+fahrenheit_a_centigrados(50)
+#Esta funcion devuele la convercion de los grados fahrenheit a centigrados
+```
+
