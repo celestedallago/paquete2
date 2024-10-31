@@ -17,5 +17,7 @@ URL: https://github.com/celestedallago/paquete2, https://celestedallago.github.i
 BugReports: https://github.com/celestedallago/paquete2/issues
 Suggests: 
     knitr,
-    rmarkdown
+    rmarkdown,
+    testthat (>= 3.0.0)
 VignetteBuilder: knitr
+Config/testthat/edition: 3
