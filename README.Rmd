@@ -1,6 +1,7 @@
 ---
 output: github_document
 ---
+https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.freepik.es%2Ffotos%2Fpaquete-logotipo-r&psig=AOvVaw3vzbqqcSf_AYj3iZ2dBRuY&ust=1730496247526000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCJi90oPHuYkDFQAAAAAdAAAAABAE
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
@@ -16,9 +17,18 @@ knitr::opts_chunk$set(
 # paquete2
 
 <!-- badges: start -->
+[![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
 <!-- badges: end -->
 
-The goal of paquete2 is to ...
+El objetivo de paquete2 es facilitar el análisis y la transformación de datos meteorológicos en bruto para investigaciones y proyectos de modelado climático. Este paquete incluye funciones para convertir temperaturas entre diferentes unidades, procesar y limpiar datos meteorológicos, y generar estadísticas descriptivas clave. Además, paquete2 ofrece conjuntos de datos preprocesados que sirven como base para realizar análisis exploratorios y validar modelos climáticos.
+
+Entre las principales características de paquete2 se encuentran:
+
+* Conversión de unidades de temperatura: Permite transformar datos de temperaturas en Fahrenheit a grados Celsius, estandarizando la información para un análisis más coherente.
+* Funciones de limpieza de datos: Automatiza la detección y el tratamiento de valores ausentes o atípicos en conjuntos de datos meteorológicos.
+* Estadísticas descriptivas: Proporciona resúmenes estadísticos y gráficos para analizar patrones y variabilidad en los datos meteorológicos.
+
+paquete2 es una herramienta útil para investigadores, científicos de datos y profesionales que trabajan en el ámbito de la meteorología, facilitando la preparación de datos para análisis y modelos climáticos de una manera eficiente y reproducible.
 
 ## Instacion
 
