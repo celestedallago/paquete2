@@ -40,9 +40,6 @@ fahrenheit_a_centigrados(50)
 ```
 ##Ejemplo de funcion
 ```{r}
-library(paquete2)
-grafico_temperatura_mensual_barras(meteorologia_raw_data)
-#Esta funcion, devuelve un grafico de barras con las temperaturas de los meses
 ```
 
 
