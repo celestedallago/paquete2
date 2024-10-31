@@ -2,7 +2,7 @@
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
 # paquete2
-https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.freepik.es%2Ffotos%2Fpaquete-logotipo-r&psig=AOvVaw3vzbqqcSf_AYj3iZ2dBRuY&ust=1730496247526000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCJi90oPHuYkDFQAAAAAdAAAAABAE
+# paquete2 <img src="man/figures/meteoro.png" align="right" width="130"/>
 <!-- badges: start -->
 <!-- badges: end -->
 
