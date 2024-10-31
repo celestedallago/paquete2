@@ -2,7 +2,7 @@
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
 # paquete2
-# paquete2 <img src="man/figures/meteoro.png" align="right" width="130"/>
+
 <!-- badges: start -->
 <!-- badges: end -->
 
