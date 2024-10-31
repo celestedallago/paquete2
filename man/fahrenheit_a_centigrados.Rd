@@ -7,7 +7,7 @@
 fahrenheit_a_centigrados(temperatura_f)
 }
 \arguments{
-\item{temperatura_f}{temperatura en grados fahrenheit}
+\item{temperatura_f}{{temperatura en grados fahrenheit}}
 }
 \value{
 retorna el grado fahrenheit en centigrados
