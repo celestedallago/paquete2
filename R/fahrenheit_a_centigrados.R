@@ -1,6 +1,8 @@
 
 #' Funcion para covertir grados fahrenheit a centigrados
 #'
+#' Esta funcion te pide grados en fehrenheit para posteriormente devolvertelos en grados centigrados
+#'
 #' @param temperatura_f
 #'
 #' @return retorna el grado fahrenheit en centigrados
