@@ -18,9 +18,4 @@ knitr::opts_chunk$set(
 library(paquete2)
 ```
 
-##Ejemplo funcion punto_rocio
-```{r}
-library(paquete2)
-punto_rocio(3)
-```
 
