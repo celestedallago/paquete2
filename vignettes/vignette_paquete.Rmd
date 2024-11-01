@@ -18,9 +18,3 @@ knitr::opts_chunk$set(
 library(paquete2)
 ```
 
-## Ejemplo de la funcion obtener_temperaturas_dia
-
-```{r}
-library(paquete2)
-obtener_temperaturas_dia(meteorologia_raw_data, 1973-01-01)
-```
