@@ -17,4 +17,5 @@ Punto rocio
 }
 \examples{
 punto_rocio(3)
+
 }
