@@ -6,6 +6,7 @@
 #'
 #'@examples
 #'punto_rocio(3)
+#'
 #'@export
 punto_rocio<- function(rocio_medio) {
   # Verificar que el argumento sea numerico
@@ -28,3 +29,4 @@ punto_rocio<- function(rocio_medio) {
 
   return(mensaje)
 }
+
