@@ -14,8 +14,13 @@ knitr::opts_chunk$set(
 )
 ```
 
+
+
 ```{r setup}
 library(paquete2)
 ```
 
+```{r}
+fahrenheit_a_centigrados(90)
+```
 
