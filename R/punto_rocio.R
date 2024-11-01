@@ -1,3 +1,12 @@
+#' Punto rocio
+#'
+#' @param rocio_medio {este es el argumento que el usuario ingresa}
+#'
+#' @return esta funcion te devuelve un mensaje sobre el punto de rocio
+#'
+#'@examples
+#'punto_rocio(3)
+#'@export
 punto_rocio<- function(rocio_medio) {
   # Verificar que el argumento sea numérico
   if (!is.numeric(rocio_medio)) {
