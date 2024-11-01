@@ -25,5 +25,3 @@ obtener_temperaturas_dia <- function(data, fecha_input) {
   return(temperaturas_dia)
 }
 
-
-
