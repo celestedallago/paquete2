@@ -8,9 +8,9 @@
 #'punto_rocio(3)
 #'@export
 punto_rocio<- function(rocio_medio) {
-  # Verificar que el argumento sea numérico
+  # Verificar que el argumento sea numerico
   if (!is.numeric(rocio_medio)) {
-    stop("El argumento debe ser un valor numérico que represente el punto de rocio.")
+    stop("El argumento debe ser un valor numerico que represente el punto de rocio.")
   }
 
   # Generar un mensaje basado en el valor del punto de rocío
@@ -21,7 +21,7 @@ punto_rocio<- function(rocio_medio) {
   } else if (rocio_medio > 10 && rocio_medio <= 15) {
     mensaje <- "El punto de rocio es moderado; las condiciones son comodas."
   } else if (rocio_medio > 15 && rocio_medio <= 20) {
-    mensaje <- "El punto de rocío es alto; el aire se siente un poco humedo."
+    mensaje <- "El punto de rocio es alto; el aire se siente un poco humedo."
   } else {
     mensaje <- "El punto de rocio es muy alto; las condiciones son muy humedas y pueden sentirse incomodas."
   }
