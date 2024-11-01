@@ -55,22 +55,8 @@
 <div class="page-header"><h1 id="paquete2">paquete2<a class="anchor" aria-label="anchor" href="#paquete2"></a>
 </h1></div>
 <!-- badges: start -->
-<p>&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD</p>
-<p><a href="https://lifecycle.r-lib.org/articles/stages.html#experimental" class="external-link"><img src="https://img.shields.io/badge/lifecycle-experimental-orange.svg" alt="Lifecycle: experimental"></a></p>
-</div>
-<div class="section level1">
-<h1 id="section">
-<!-- badges: end --><a class="anchor" aria-label="anchor" href="#section"></a>
-</h1>
-<!-- badges: end -->
-<p>#paquete2 &lt;img src=“inst/figures/logo.jpg” align=“right” width=“130”/&gt; El objetivo de paquete2 es facilitar el análisis y la transformación de datos meteorológicos en bruto para investigaciones y proyectos de modelado climático. Este paquete incluye funciones para convertir temperaturas entre diferentes unidades, procesar y limpiar datos meteorológicos, y generar estadísticas descriptivas clave. Además, paquete2 ofrece conjuntos de datos preprocesados que sirven como base para realizar análisis exploratorios y validar modelos climáticos.</p>
-<p>Entre las principales características de paquete2 se encuentran:</p>
-<ul>
-<li>Conversión de unidades de temperatura: Permite transformar datos de temperaturas en Fahrenheit a grados Celsius, estandarizando la información para un análisis más coherente.</li>
-<li>Funciones de limpieza de datos: Automatiza la detección y el tratamiento de valores ausentes o atípicos en conjuntos de datos meteorológicos.</li>
-<li>Estadísticas descriptivas: Proporciona resúmenes estadísticos y gráficos para analizar patrones y variabilidad en los datos meteorológicos.</li>
-</ul>
-<p>paquete2 es una herramienta útil para investigadores, científicos de datos y profesionales que trabajan en el ámbito de la meteorología, facilitando la preparación de datos para análisis y modelos climáticos de una manera eficiente y reproducible. &gt;&gt;&gt;&gt;&gt;&gt;&gt; 7d26f951d7b68faeaf3cfa35c1475c7a8ff18940</p>
+
+<p><a href="https://github.com/celestedallago/paquete2/actions/workflows/R-CMD-check.yaml" class="external-link"><img src="https://github.com/celestedallago/paquete2/actions/workflows/R-CMD-check.yaml/badge.svg" alt="R-CMD-check"></a> <!-- badges: end --></p>
 <div class="section level2">
 <h2 id="instacion">Instacion<a class="anchor" aria-label="anchor" href="#instacion"></a>
 </h2>
@@ -80,17 +66,29 @@
 <span><span class="fu">pak</span><span class="fu">::</span><span class="fu"><a href="https://pak.r-lib.org/reference/pak.html" class="external-link">pak</a></span><span class="op">(</span><span class="st">"celestedallago/paquete2"</span><span class="op">)</span></span></code></pre></div>
 </div>
 <div class="section level2">
-<h2 id="ejemplo">Ejemplo<a class="anchor" aria-label="anchor" href="#ejemplo"></a>
+<h2 id="carga-parquete">Carga parquete<a class="anchor" aria-label="anchor" href="#carga-parquete"></a>
 </h2>
-<p>Este es un ejemplo básico que muestra cómo resolver un problema común:</p>
+<p>De esta forma podes descargar el paquete</p>
 <div class="sourceCode" id="cb2"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://github.com/celestedallago/paquete2" class="external-link">paquete2</a></span><span class="op">)</span></span>
-<span><span class="fu"><a href="reference/fahrenheit_a_centigrados.html">fahrenheit_a_centigrados</a></span><span class="op">(</span><span class="fl">50</span><span class="op">)</span></span>
-<span><span class="co">#&gt; [1] 10</span></span>
-<span><span class="co">#Esta funcion devuele la convercion de los grados fahrenheit a centigrados</span></span></code></pre></div>
+<code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://github.com/celestedallago/paquete2" class="external-link">paquete2</a></span><span class="op">)</span></span></code></pre></div>
+</div>
+<div class="section level2">
+<h2 id="ejemplo-de-las-funciones">Ejemplo de las funciones:<a class="anchor" aria-label="anchor" href="#ejemplo-de-las-funciones"></a>
+</h2>
+<p><code>fahrenheit_a_centigrados</code>esta funcion convierte la temperatura de fahrenheit a centigrados</p>
+<div class="sourceCode" id="cb3"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span><span class="fu"><a href="reference/fahrenheit_a_centigrados.html">fahrenheit_a_centigrados</a></span><span class="op">(</span><span class="fl">80</span><span class="op">)</span></span>
+<span><span class="co">#&gt; [1] 26.66667</span></span></code></pre></div>
+<p><code>punto_rocio</code>esta funcion pide que ingrese un valor y de acuerdo a este devuelve un mensaje</p>
+<div class="sourceCode" id="cb4"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span><span class="fu"><a href="reference/punto_rocio.html">punto_rocio</a></span><span class="op">(</span><span class="fl">5</span><span class="op">)</span></span>
+<span><span class="co">#&gt; [1] "El punto de rocio es bajo; el aire se siente fresco y seco."</span></span></code></pre></div>
+<p><code>mensaje_humedad</code>esta funcion pide que ingreses un valor y de acuerdo a este devuelve un mensaje</p>
+<div class="sourceCode" id="cb5"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span><span class="fu"><a href="reference/mensaje_humedad.html">mensaje_humedad</a></span><span class="op">(</span><span class="fl">30</span><span class="op">)</span></span>
+<span><span class="co">#&gt; [1] "La humedad es moderada."</span></span></code></pre></div>
 </div>
 </div>
-
   </main><aside class="col-md-3"><div class="links">
 <h2 data-toc-skip>Links</h2>
 <ul class="list-unstyled">
@@ -125,18 +123,23 @@
 <div class="developers">
 <h2 data-toc-skip>Developers</h2>
 <ul class="list-unstyled">
-<li>Celeste Dal Lago <br><small class="roles"> Author, maintainer </small> <a href="https://orcid.org/YOUR-ORCID-ID" target="orcid.widget" aria-label="ORCID" class="external-link"><span class="fab fa-orcid orcid" aria-hidden="true"></span></a> </li>
+<li>Victoria Marull <br><small class="roles"> Author, maintainer </small> <a href="https://orcid.org/YOUR-ORCID-ID" target="orcid.widget" aria-label="ORCID" class="external-link"><span class="fab fa-orcid orcid" aria-hidden="true"></span></a> </li>
 </ul>
 </div>
 
-
+<div class="dev-status">
+<h2 data-toc-skip>Dev status</h2>
+<ul class="list-unstyled">
+<li><a href="https://lifecycle.r-lib.org/articles/stages.html#experimental" class="external-link"><img src="https://img.shields.io/badge/lifecycle-experimental-orange.svg" alt="Lifecycle: experimental"></a></li>
+</ul>
+</div>
 
   </aside>
 </div>
 
 
     <footer><div class="pkgdown-footer-left">
-  <p>Developed by Celeste Dal Lago.</p>
+  <p>Developed by Victoria Marull.</p>
 </div>
 
 <div class="pkgdown-footer-right">
