@@ -119,7 +119,8 @@ Contacto para Dudas: Si tienes alguna duda o necesitas asistencia
 durante el proceso de contribución, no dudes en contactarnos a través de
 los siguientes correos electrónicos:
 
-Victoria Marull: <vmarull@mail.austral.edu.ar> Celeste Dal Lago:
-<cdallago@mail.austral.edu.ar> Agradecemos de antemano tu interés en
-contribuir a este proyecto. ¡Juntos podemos mejorar y expandir las
-capacidades de nuestro paquete!
+Victoria Marull: <vmarull@mail.austral.edu.ar>
+
+Celeste Dal Lago: <cdallago@mail.austral.edu.ar> Agradecemos de antemano
+tu interés en contribuir a este proyecto. ¡Juntos podemos mejorar y
+expandir las capacidades de nuestro paquete!
