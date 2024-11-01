@@ -14,13 +14,36 @@ knitr::opts_chunk$set(
 )
 ```
 
+## Introduccion al uso del paquete:
 
+Esta es una guia para el uso adecuado del paquete `paquete2` 
+
+
+Primero debemos importar la libreria de nuestro paquete
 
 ```{r setup}
 library(paquete2)
 ```
 
+
+## Nuestras funciones:
+
+`fahrenheir_a_centigrados`: convercion de grados fahrenheit a centigrados
+
 ```{r}
 fahrenheit_a_centigrados(90)
+```
+
+
+`punto_rocio`: Ingresa un valor, y devuelve un mensaje en base a este
+
+```{r}
+punto_rocio(7)
+```
+
+`mensaje_humedad`: Ingresa un valor, y devuelve un mensaje en base a este
+
+```{r}
+mensaje_humedad(60)
 ```
 

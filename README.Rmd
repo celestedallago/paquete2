@@ -19,6 +19,7 @@ knitr::opts_chunk$set(
 <!-- badges: start -->
 [![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
 
+[![R-CMD-check](https://github.com/celestedallago/paquete2/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/celestedallago/paquete2/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 
@@ -31,18 +32,31 @@ Puede instalar la versión de desarrollo de paquete2 desde [GitHub](https://gith
 pak::pak("celestedallago/paquete2")
 ```
 
-## Ejemplo
+## Carga parquete
 
-Este es un ejemplo básico que muestra cómo resolver un problema común:
+De esta forma podes descargar el paquete
 
 ```{r example}
 library(paquete2)
-fahrenheit_a_centigrados(50)
-#Esta funcion devuele la convercion de los grados fahrenheit a centigrados
 ```
-##Ejemplo de funcion
+
+## Ejemplo de las funciones: 
+
+`fahrenheit_a_centigrados`esta funcion convierte la temperatura de fahrenheit a centigrados
 ```{r}
+fahrenheit_a_centigrados(80)
 ```
+`punto_rocio`esta funcion pide que ingrese un valor y de acuerdo a este devuelve un mensaje
+```{r}
+punto_rocio(5)
+```
+
+`mensaje_humedad`esta funcion pide que ingreses un valor y de acuerdo a este devuelve un mensaje
+```{r}
+mensaje_humedad(30)
+```
+
+
 
 
 
